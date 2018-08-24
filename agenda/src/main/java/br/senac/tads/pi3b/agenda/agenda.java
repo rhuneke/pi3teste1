@@ -62,5 +62,9 @@ public class agenda {
     public static void main(String[] args){
         agenda agenda = new agenda();
         agenda.executar();
+        
+        for (int i = 0;i<100;i++){
+            System.out.println("Numero " + i);
+        }
     }
 }
